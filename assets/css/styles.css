@@ -299,7 +299,9 @@ img {
 }
 
 .home__blob-img {
-  width: 200px;
+  width: 150px;
+  translate: -10px -73px;
+  rotate: -3deg;
 }
 
 .home__data {
