@@ -372,6 +372,7 @@ img {
 }
 
 .button--flex {
+  margin-top: 1.5rem;
   display: inline-flex;
   align-items: center;
 }
@@ -619,6 +620,7 @@ img {
 }
 
 /*==================== PORTFOLIO ====================*/
+
 .portfolio__container {
   overflow: initial;
 }
@@ -846,6 +848,10 @@ img {
   .skills__title {
     font-size: var(--normal-font-size);
   }
+
+  .porfolio__description {
+    margin: 0 1.5rem !important;
+  }
 }
 
 /* For medium devices */
@@ -871,6 +877,10 @@ img {
     display: grid;
     grid-template-columns: 0.6fr;
     justify-content: center;
+  }
+
+  .porfolio__description {
+    margin: 0 1rem !important;
   }
 }
 
